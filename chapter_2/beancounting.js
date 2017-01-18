@@ -15,4 +15,5 @@ var countBs = function(myString) {
   return countChar(myString, "B");
 }
 
-console.log(countBs("BitchesBeCray"));
+console.log(countBs("BBC"));
+console.log(countChar("AardvarksAreAwesome", "A"));
