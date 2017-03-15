@@ -15,8 +15,7 @@ function reverseArrayInPlace(array) {
   return array;
 }
 
-var preReverse = ["A", "B", "C"];
+var preReverse = ["A", "B", "C", "D", "E", "F"];
 
-console.log(preReverse);
-
-// console.log(reverseArray(["1", "2", "3"]));
+console.log(reverseArrayInPlace(preReverse));
+console.log(reverseArray(["1", "2", "3"]));

@@ -28,27 +28,6 @@ function nth(list, n) {
   }
 }
 
-function nth2(list, n) {
-  var i = 0;
-  var value = 0;
-  for (var node = list; node; node = node.rest) {
-    if(i == n) {
-      return node.value;
-    }
-    i++;
-  }
-}
-
-function nth2(list, n) {
-  var i = 0;
-  for (var node = list; node; node = node.rest) {
-    console.log(node);
-    if(i === n) {
-      list.value;
-    }
-    i++;
-  }
-}
 
 var list = {
   value: 1,
